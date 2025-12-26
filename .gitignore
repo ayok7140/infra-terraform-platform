@@ -1,7 +1,9 @@
+# Terraform
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
 *.tfvars
 
+# IDE / virtualenv
 .idea/
 .venv/
