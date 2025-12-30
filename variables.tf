@@ -40,3 +40,15 @@ variable "ssh_allowed_cidr" {
   description = "Admin IP/CIDR allowed to SSH into AWX host"
   type        = string
 }
+
+# Application credentials that will be stored in SSM Parameter Store
+variable "app_admin_user" {
+  type        = string
+  description = "Application admin username"
+}
+
+variable "app_admin_password" {
+  type        = string
+  description = "Application admin password"
+  sensitive   = true
+}

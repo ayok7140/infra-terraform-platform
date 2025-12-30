@@ -7,3 +7,16 @@ terraform.tfstate.backup
 # IDE / virtualenv
 .idea/
 .venv/
+# Terraform state folders
+terraform.tfstate.d/
+
+# Private keys
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
